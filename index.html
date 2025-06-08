@@ -1,18 +1,170 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
+
 <body>
+    <header>
+        <h1>MY RESUME</h1>
+        <nav>
+            <p><a href="#skill">My skill</a> | <a href="#education">My education</a> | <a href="#contact">My contact</a>
+            </p> <br>
+            <img src="images/profile.png" height="240" alt="anh profile">
+        </nav>
+        <h2>NGUYEN HOANG HAN</h2>
+        <strong>Web Designer</strong>
+    </header>
+    <main>
+        <section>
+            <h3>INFO:</h3>
+            <div>
+                <p><img src="images/location.png" alt="">Address: <i>A3-26,07 street, Cai Rang District</i> </p>
+                <p><img src="images/call.png" alt="">Phone: <i>+84 0706622248</i></p>
+                <p><img src="images/mail.png" alt="">Email: <i>hannh.ce192048@gamil.com</i></p>
+            </div>
+        </section>
 
-  <h1>Welcome to My Website, my name is REPLACE_YOUR_NAME</h1>
+        <section>
+            <h3>PROFILE:</h3>
+            <div>
+                <p>I am currently a second-year student majoring in Information Technology. I have a solid foundation in
+                    programming with languages such as C and Java (OOP), along with frontend development skills using
+                    HTML and CSS. I am eager to gain hands-on experience and contribute to real-world projects. I am
+                    confident in my ability to learn quickly, work in teams, and adapt to new technologies in IT
+                    environments.</p>
+            </div>
+        </section>
 
-  <p>This is the home page of my website.</p>
+        <section>
+            <h3>WORK EXPERIENCE:</h3>
+            <div>
+                <ol>
+                    <li><b>06/2024 – 08/2024:</b> Intern – Web Development Team, ABC Software Solutions</li>
+                    <ul>
+                        <li>Participated in developing frontend components for an internal web-based tool using HTML
+                            and CSS.</li>
+                        <li>Assisted in debugging and improving code quality for Java backend services.</li>
+                        <li>Collaborated with team members in Agile sprints, gaining hands-on experience in software
+                            development workflows.</li>
+                    </ul>
+                    <li><b>09/2023 – 12/2023:</b> Deputy Director of IT Center - VNPT Can Tho</li>
+                    <ul>
+                        <li>Project leader implementing projects in the health sector in Can Tho.</li>
+                        <li>Project leader deploys Smart Tourism Portal and application via mobile devices for Can Tho
+                            Department of
+                            Culture, Sports and Tourism at https://canthotourism.vn/.</li>
+                        <li>Participating in digital transformation for businesses and digitalizing the management of
+                            internal BSCs/KPIs
+                            for VNPT.</li>
+                    </ul>
+                </ol>
+            </div>
+        </section>
 
-  <ul>
-    <li><a href="about.html">About Me</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
+        <section id="education">
+            <h3>EDUCATION:</h3>
+            <div>
+                <table border="1">
+                    <tr>
+                        <th>Years</th>
+                        <th>Qualification</th>
+                        <th>Study place</th>
+                    </tr>
 
+                    <tbody>
+                        <tr>
+                            <td>2023-2025</td>
+                            <td>University</td>
+                            <td>FPT University</td>
+                        </tr>
+
+                        <tr>
+                            <td>2020-2023</td>
+                            <td>High school education</td>
+                            <td>Pham Thanh Trung High school</td>
+                        </tr>
+
+                        <tr>
+                            <td>2016-2020</td>
+                            <td>Secondary school education</td>
+                            <td>My Duc Dong Secondary school</td>
+                        </tr>
+
+                        <tr>
+                            <td>2011-2016</td>
+                            <td>Primary school education</td>
+                            <td>My Duc Dong Primary school</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="skill">
+            <h3>SKILLS:</h3>
+            <div>
+                <p>HTML (90%) <Progress value="90" max="100"></Progress></p>
+                <p>CSS (80%) <Progress value="80" max="100"></Progress></p>
+                <p>JavaScript (60%) <Progress value="60" max="100"></Progress></p>
+            </div>
+        </section>
+
+        <section>
+            <h3>HOBBY:</h3>
+            <div>
+
+                <p><img src="images/news.png" alt=""><b>News:</b>kenh14.vn</p>
+                <iframe src="https://kenh14.vn/" frameborder="1" height="500" width="100%"></iframe>
+
+            </div>
+            <div>
+
+                <p><img src="images/video.png" alt=""><b>Video:</b>Doraemon</p>
+                <video controls src="data/DoraemonTheMovie2017.mp4" width="100%"></video>
+
+            </div>
+            <div>
+
+                <p><img src="images/music.png" alt=""><b>Music:</b>Trach duyen trach phan</p>
+                <audio controls src="data/Trach-Duyen-Trach-Phan.mp3"></audio>
+
+            </div>
+        </section>
+
+        <section id="contact">
+            <h3>CONTACT:</h3>
+            <fieldset>
+                <form action="">
+                    <label for="password">
+                        <span>Name: <input type="text"></span><br>
+                        <span>Phone: <input type="text"></span><br>
+                        <span>Email: <input type="text"></span><br>
+                        <span>Gender: <input name="Gender" type="radio"> Male <input name="Gender" type="radio">
+                            Female</span><br>
+                        <span>Choose interests: <input type="checkbox"> Java <input type="checkbox"> CSharp <input
+                                type="checkbox"> HTML <input type="checkbox"> CSS</span><br>
+                        <span>Support: <select name="" id="">
+                                <option value="HTML">HTML</option>
+                            </select></span><br>
+                        <span>Content: </span><br>
+                        <textarea name="" id=""></textarea><br>
+                        <span> <input type="button" value="Send"> <input type="button" value="Reset"></span><br>
+                    </label>
+                </form>
+            </fieldset>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <br>
+        &copy;<span> Copyright 2023, Design by Nguyen Hoang Han.</span>
+    </footer>
 </body>
+
 </html>
